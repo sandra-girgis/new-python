@@ -13,4 +13,9 @@ git add .
 git commit -m "test file" .
 git push origin test
 git checkout master
-git merge test  
+git merge test
+
+to delete localy 
+git branch -d branch_name
+to delete remote
+git push origin :branch_name
