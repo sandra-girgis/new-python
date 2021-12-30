@@ -1,0 +1,16 @@
+git init
+git remote add origin https://github.com/sandra-girgis/new-python.git
+git add .
+git commit -m "new file" .
+git push origin master
+git checkout -b dev
+git add .
+git commit -m "dev file" .
+git push origin dev 
+git merge dev   
+git checkout -b test 
+git add .
+git commit -m "test file" .
+git push origin test
+git checkout master
+git merge test  
